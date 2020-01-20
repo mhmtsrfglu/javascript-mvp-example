@@ -13,6 +13,10 @@ function model(config) {
         }
     };
 
+    _this.resetCounter = function(){
+        counter = 0;
+    };
+
     _this.getCounter = function () {
         return counter;
     }
